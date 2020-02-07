@@ -97,6 +97,3 @@ It's a view tab panel. One view tab created foreach userscript connected.
 - create a view tab foreach tab
 - populate view tab with view file
 - create instance of view script
-
-## TODO
-- put on github
