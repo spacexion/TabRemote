@@ -1,0 +1,17 @@
+.tabIcon-deezer_com {
+    content: url("https://cdns-files.dzcdn.net/img/common/opengraph-logo.png");
+}
+
+.deezer_com .playerContainer {
+    background-color: grey;
+}
+
+.deezer_com .thumbnailContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.deezer_com .trackThumbnail {
+    object-fit: contain;
+    width: 100%;
+}

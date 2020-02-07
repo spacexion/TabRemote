@@ -1,0 +1,66 @@
+{
+    "password": "",
+    "passwordHash": "",
+    "port": 3000,
+    "showKeyData": false,
+    "tabModules": {
+        "deezer_com": "Deezer",
+        "youtube_com": "Youtube"
+    },
+    "keystrokeListener": true,
+    "keyBindings": {
+        "deezer_com": {
+            "playFlow": {
+                "ctrl": true,
+                "shift": true,
+                "code": 179,
+                "target": "first"
+            },
+            "prev": {
+                "ctrl": true,
+                "code": 177,
+                "target": "first"
+            },
+            "play": {
+                "ctrl": true,
+                "code": 179,
+                "target": "first"
+            },
+            "next": {
+                "ctrl": true,
+                "code": 176,
+                "target": "first"
+            },
+            "mute": {
+                "ctrl": true,
+                "alt": true,
+                "code": 179,
+                "target": "first"
+            },
+            "repeat": {
+                "ctrl": true,
+                "alt": true,
+                "code": 177,
+                "target": "first"
+            },
+            "shuffle": {
+                "ctrl": true,
+                "alt": true,
+                "code": 176,
+                "target": "first"
+            },
+            "like": {
+                "ctrl": true,
+                "shift": true,
+                "code": 177,
+                "target": "first"
+            },
+            "dontlike": {
+                "ctrl": true,
+                "shift": true,
+                "code": 176,
+                "target": "first"
+            }
+        }
+    }
+}

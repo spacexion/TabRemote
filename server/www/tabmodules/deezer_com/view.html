@@ -1,0 +1,64 @@
+
+<div class="tab-view deezer_com">
+    <div class="row">
+        <div class="col-xl-2"></div>
+        <div class="col-xl-8">
+            <div class="row playerContainer mt-3 mb-5">
+                <div class="col-8 m-3">
+                    <div class="row">
+                        <input type="text" class="form-control" data-id="dataTrackTitle" placeholder="Title" disabled>
+                        <input type="text" class="form-control" data-id="dataTrackArtist" placeholder="Artist" disabled>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col">
+                            <button data-id="buttonPlayFlow" class="btn btn-success btn-lg">Flow</button>
+                        </div>
+                        <div class="col text-right">
+                            <button data-id="buttonLike" class="btn btn-secondary btn-lg"><i class="fas fa-heart"></i></button>
+                            <button data-id="buttonDontLike" class="btn btn-danger btn-lg"><i class="fas fa-ban"></i></button>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col">
+                            <button data-id="buttonPrev" class="btn btn-info btn-lg"><i class="fas fa-step-backward"></i></button>
+                            <button data-id="buttonPlay" class="btn btn-success btn-lg">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button data-id="buttonPause" class="btn btn-warning btn-lg" style="display: none;">
+                                <i class="fas fa-pause"></i>
+                            </button>
+                            <button data-id="buttonNext" class="btn btn-info btn-lg"><i class="fas fa-step-forward"></i></button>
+                        </div>
+                        <div class="col text-right">
+                            <button data-id="buttonMute" class="btn btn-secondary btn-lg"><i class="fas fa-volume-up"></i></button>
+                            <button data-id="buttonRepeat" class="btn btn-secondary btn-lg"><i class="fas fa-sync"></i></button>
+                            <button data-id="buttonShuffle" class="btn btn-secondary btn-lg"><i class="fas fa-random"></i></button>
+                            <button data-id="buttonLyrics" class="btn btn-secondary btn-lg"><i class="fas fa-microphone-alt"></i></button>
+                            <button data-id="buttonQueueList" class="btn btn-secondary btn-lg"><i class="fas fa-list-ol"></i></button>
+                        </div>
+                    </div>
+                    <div class="row mt-5 text-center">
+                        <div class="col p-0">
+                            <span data-id="progressTimeCurrent">00:00</span>
+                        </div>
+                        <div class="col-9 p-0">
+                            <div class="progress mt-1">
+                                <div data-id="progressBar" class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="col p-0">
+                            <span data-id="progressTimeMax">00:00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pr-0">
+                    <div class="thumbnailContainer text-right">
+                        <img data-id="dataTrackThumbnail" class="trackThumbnail" src="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2"></div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+.tabIcon-youtube_com {
+    content: url("https://s.ytimg.com/yts/img/favicon_96-vflW9Ec0w.png");
+}
+
+.youtube_com .playerContainer {
+    background-color: grey;
+}
+
+.youtube_com .thumbnailContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.youtube_com .thumbnailContainer {
+    width: 100%;
+}
+
+.youtube_com .thumbnail {
+    object-fit: contain;
+    width: 100%;
+}
+
+.youtube_com .followingVideosList {
+    overflow-x: scroll;
+}
+
+.youtube_com .followingVideosContainer .card {
+    min-width: 300px;
+    min-height: 300px;
+    margin-right: 5px;
+    color: rgba(50,50,50,1);
+}

@@ -1,0 +1,29 @@
+
+.darkTheme {
+    background-color: rgba(36, 36, 36, 1);
+    color: rgba(220, 220, 220, 1);
+}
+
+.tabIcon {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+#appContainer {
+    min-width: 1000px;
+    height: 100%;
+    min-height: 100%;
+    overflow: auto;
+}
+
+#appHeader {
+    background-color: rgba(28, 28, 28, 1);
+}
+
+#viewLoaderHeader {
+    background-color: rgba(28, 28, 28, 1);
+}
+#viewLoaderHeader .nav-item {
+    margin-right: 10px;
+}

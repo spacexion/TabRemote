@@ -1,0 +1,17 @@
+{
+  "name": "tab-remote-server",
+  "version": "0.1.2",
+  "description": "Server for TabRemote userscripts.",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Spacexion",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "iohook": "^0.2.0",
+    "socket.io": "^2.1.1"
+  }
+}
